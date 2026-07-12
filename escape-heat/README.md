@@ -1,6 +1,6 @@
 # Escape Heat — AI Urban Heat Decision Intelligence Platform
 
-> **Frontend Module** · Production-ready UI with mock data · Next.js 16 + React + Tailwind CSS v4
+> **Frontend Module** · Production-ready UI with mock data · Next.js 16 + React + Tailwind CSS v4 · Deployed on Vercel
 
 ---
 
