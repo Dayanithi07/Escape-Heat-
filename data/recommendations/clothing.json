@@ -1,0 +1,65 @@
+{
+  "fabrics": {
+    "recommended": [
+      {
+        "name": "Cotton",
+        "reason": "Lightweight, highly breathable, absorbs sweat, and allows air circulation to cool the skin."
+      },
+      {
+        "name": "Linen",
+        "reason": "Loosely woven, allows heat to escape from the body, and dries very quickly."
+      },
+      {
+        "name": "Chambray",
+        "reason": "A lightweight alternative to denim that provides breathability and durability."
+      }
+    ],
+    "avoid": [
+      {
+        "name": "Polyester / Nylon",
+        "reason": "Synthetic fabrics trap heat and moisture, leading to increased body temperature and skin irritation."
+      },
+      {
+        "name": "Denim",
+        "reason": "Heavy and tight-weave fabric that restricts airflow and traps heat."
+      },
+      {
+        "name": "Silk",
+        "reason": "Can trap heat and is prone to damage from sweat and sunscreen."
+      }
+    ]
+  },
+  "styling": {
+    "fit": "Loose-fitting clothing to allow air circulation and evaporation of sweat.",
+    "color": "Light colors (white, beige, pastels) that reflect solar radiation, rather than dark colors (black, navy, dark brown) that absorb it.",
+    "layers": "Minimize layers. If layering is required for sun protection, use extremely thin, loose-fitting cotton."
+  },
+  "protective_gear": {
+    "headwear": [
+      {
+        "item": "Wide-brimmed hat",
+        "spec": "At least 3-inch brim to shade eyes, face, ears, and neck."
+      },
+      {
+        "item": "Light cotton cap",
+        "spec": "For basic sun protection, preferably with ventilation holes."
+      },
+      {
+        "item": "Umbrella",
+        "spec": "Preferably UV-blocking or light-colored to create personal shade."
+      }
+    ],
+    "eyewear": [
+      {
+        "item": "UV-Protection Sunglasses",
+        "spec": "Wrap-around style or lenses offering 99% to 100% UVA and UVB protection."
+      }
+    ],
+    "skin_protection": [
+      {
+        "item": "Sunscreen",
+        "spec": "Broad-spectrum SPF 30 or higher, applied 20 minutes before going outdoors and reapplied every 2 hours."
+      }
+    ]
+  }
+}

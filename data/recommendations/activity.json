@@ -1,0 +1,59 @@
+{
+  "safety_by_risk_level": {
+    "low": {
+      "outdoor_activities": "Safe for all outdoor activities. Ensure normal hydration.",
+      "peak_hour_restrictions": "None. Standard precautions apply.",
+      "indoor_activities": "No modifications required.",
+      "work_recommendations": "Standard working conditions."
+    },
+    "moderate": {
+      "outdoor_activities": "Safe, but take breaks in the shade. Drink water hourly.",
+      "peak_hour_restrictions": "Limit high-intensity outdoor activities (e.g. running, sports) between 12:00 PM and 3:00 PM.",
+      "indoor_activities": "Ensure proper ventilation or fan use.",
+      "work_recommendations": "Ensure outdoor workers have access to shade and clean water. Take 5-minute rest breaks every hour."
+    },
+    "high": {
+      "outdoor_activities": "Restrict high-intensity exercise. Wear sun protection. Walk in shaded paths.",
+      "peak_hour_restrictions": "Avoid direct sun exposure and strenuous outdoor tasks between 11:00 AM and 4:00 PM.",
+      "indoor_activities": "Use air conditioning if available, or visit public cooling centers. Avoid cooking during peak hours if kitchen is hot.",
+      "work_recommendations": "Implement work-rest cycles (e.g., 15 minutes of rest for every 45 minutes of work). Shift heavy labor to early morning (before 10:00 AM) or late evening (after 5:00 PM)."
+    },
+    "extreme": {
+      "outdoor_activities": "Cancel all non-essential outdoor activities. Strenuous exercise is highly dangerous.",
+      "peak_hour_restrictions": "Do not go outdoors between 10:00 AM and 6:00 PM unless absolutely necessary.",
+      "indoor_activities": "Stay in cool, air-conditioned rooms. If indoor temperature exceeds 35°C (95°F), fans alone may not prevent heat illness; seek air-conditioned shelter.",
+      "work_recommendations": "Suspend outdoor physical labor. Move tasks indoors to cooled areas, or reschedule. Critical outdoor work must follow a strict 30-minute work, 30-minute rest cycle in shaded/cooled zones with mandatory hydration."
+    }
+  },
+  "acclimatization": {
+    "definition": "The process of gradually adjusting to hot environments over 7 to 14 days to reduce heat stress risk.",
+    "new_workers": "New workers should work at 20% intensity on Day 1, with a 20% daily increase in duration and intensity, reaching full capacity by Day 5 or 6.",
+    "returning_workers": "Workers returning after an absence should start at 50% intensity on Day 1, 60% on Day 2, 80% on Day 3, and 100% on Day 4."
+  },
+  "symptoms_and_first_aid": {
+    "heat_exhaustion": {
+      "symptoms": [
+        "Heavy sweating",
+        "Weakness or fatigue",
+        "Cold, pale, clammy skin",
+        "Fast, weak pulse",
+        "Nausea or vomiting",
+        "Muscle cramps",
+        "Dizziness or fainting"
+      ],
+      "action": "Move to a cool place. Loosen clothing. Apply cool, wet cloths or take a cool bath. Sip water slowly. Seek medical attention if symptoms worsen or last more than 1 hour."
+    },
+    "heat_stroke": {
+      "symptoms": [
+        "High body temperature (above 39.4°C / 103°F)",
+        "Hot, red, dry or damp skin",
+        "Fast, strong pulse",
+        "Headache or dizziness",
+        "Nausea",
+        "Confusion or disorientation",
+        "Loss of consciousness / fainting"
+      ],
+      "action": "This is a medical emergency. Call emergency services (e.g., 108/102 in India) immediately. Move the person to a cool place. Cool the person using cool cloths, ice packs, or a cool bath. Do NOT give them anything to drink."
+    }
+  }
+}

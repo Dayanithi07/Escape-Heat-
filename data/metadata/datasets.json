@@ -1,0 +1,300 @@
+{
+  "datasets": [
+    {
+      "dataset_name": "Open-Meteo Historical Weather (chennai_weather.json)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/chennai_weather.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (chennai_weather_hourly.csv)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/chennai_weather_hourly.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (bangalore_weather.json)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/bangalore_weather.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (bangalore_weather_hourly.csv)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/bangalore_weather_hourly.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (delhi_weather.json)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/delhi_weather.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (delhi_weather_hourly.csv)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/delhi_weather_hourly.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (gurgaon_weather.json)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/gurgaon_weather.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (gurgaon_weather_hourly.csv)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/gurgaon_weather_hourly.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (hyderabad_weather.json)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/hyderabad_weather.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Open-Meteo Historical Weather (hyderabad_weather_hourly.csv)",
+      "category": "Weather",
+      "source": "Open-Meteo Archive API",
+      "local_path": "data/weather/open-meteo/hyderabad_weather_hourly.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (chennai_nasa_power.json)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/chennai_nasa_power.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (chennai_nasa_power.csv)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/chennai_nasa_power.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (bangalore_nasa_power.json)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/bangalore_nasa_power.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (bangalore_nasa_power.csv)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/bangalore_nasa_power.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (delhi_nasa_power.json)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/delhi_nasa_power.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (delhi_nasa_power.csv)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/delhi_nasa_power.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (gurgaon_nasa_power.json)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/gurgaon_nasa_power.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (gurgaon_nasa_power.csv)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/gurgaon_nasa_power.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (hyderabad_nasa_power.json)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/hyderabad_nasa_power.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "NASA POWER Daily Point Meteorology (hyderabad_nasa_power.csv)",
+      "category": "Weather",
+      "source": "NASA POWER API",
+      "local_path": "data/weather/nasa-power/hyderabad_nasa_power.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "IMD Open Gridded Datasets",
+      "category": "Weather",
+      "source": "India Meteorological Department (IMD)",
+      "local_path": "data/weather/imd",
+      "download_status": "Manual Download Required",
+      "format": "Binary / netCDF"
+    },
+    {
+      "dataset_name": "Land Surface Temperature (LST)",
+      "category": "Satellite",
+      "source": "NASA EarthData / ISRO Bhuvan / Copernicus",
+      "local_path": "data/satellite",
+      "download_status": "Manual Download Required",
+      "format": "GeoTIFF (.tif) / netCDF (.nc)"
+    },
+    {
+      "dataset_name": "OSM Hospitals & Health Clinics (hospitals.geojson)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/hospitals.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "OSM Hospitals & Health Clinics (hospitals.csv)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/hospitals.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "OSM Parks & Green Spaces (parks.geojson)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/parks.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "OSM Parks & Green Spaces (parks.csv)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/parks.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "OSM Water Bodies (water_bodies.geojson)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/water_bodies.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "OSM Water Bodies (water_bodies.csv)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/water_bodies.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "OSM Tree Cover / Forest Greenery (tree_cover.geojson)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/tree_cover.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "OSM Tree Cover / Forest Greenery (tree_cover.csv)",
+      "category": "Environmental",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/environment/tree_cover.csv",
+      "download_status": "Collected",
+      "format": "CSV"
+    },
+    {
+      "dataset_name": "OSM Major Roads Network (roads.geojson)",
+      "category": "Maps",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/maps/roads.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "OSM Building Footprints (buildings.geojson)",
+      "category": "Maps",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/maps/buildings.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "OSM Administrative Boundaries (boundaries.geojson)",
+      "category": "Maps",
+      "source": "OpenStreetMap via Overpass API",
+      "local_path": "data/maps/boundaries.geojson",
+      "download_status": "Collected",
+      "format": "GeoJSON"
+    },
+    {
+      "dataset_name": "Hydration Guidance Rules (hydration.json)",
+      "category": "Recommendations",
+      "source": "NDMA / WHO / NOAA Public Health Guidelines",
+      "local_path": "data/recommendations/hydration.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Clothing Recommendations (clothing.json)",
+      "category": "Recommendations",
+      "source": "NDMA / WHO / NOAA Public Health Guidelines",
+      "local_path": "data/recommendations/clothing.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Activity Safety Protocols (activity.json)",
+      "category": "Recommendations",
+      "source": "NDMA / WHO / NOAA Public Health Guidelines",
+      "local_path": "data/recommendations/activity.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    },
+    {
+      "dataset_name": "Heat Index Risk Levels (risk_levels.json)",
+      "category": "Recommendations",
+      "source": "NDMA / WHO / NOAA Public Health Guidelines",
+      "local_path": "data/recommendations/risk_levels.json",
+      "download_status": "Collected",
+      "format": "JSON"
+    }
+  ]
+}

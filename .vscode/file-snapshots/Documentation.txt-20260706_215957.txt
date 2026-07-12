@@ -1,0 +1,277 @@
+===============================================================================
+Escape Heat
+AI-Powered Urban Heat Decision Intelligence Platform
+===============================================================================
+
+1. PROJECT OVERVIEW
+-------------------------------------------------------------------------------
+
+Escape Heat is an AI-powered Decision Intelligence Platform that helps citizens,
+organizations, and city authorities understand urban heat conditions and make
+safer daily decisions using real-time environmental data and Generative AI.
+
+Unlike traditional weather applications, Escape Heat analyzes current
+environmental conditions and provides personalized, actionable recommendations
+instead of predicting future weather.
+
+-------------------------------------------------------------------------------
+
+2. PROBLEM STATEMENT
+-------------------------------------------------------------------------------
+
+Current weather applications only display environmental metrics such as
+temperature and humidity. They do not explain:
+
+• Personal heat risk
+• Health impact
+• Recommended actions
+• Community heat exposure
+• Urban intervention priorities
+
+Although environmental data is publicly available, it is fragmented and difficult
+for ordinary users to understand and act upon.
+
+-------------------------------------------------------------------------------
+
+3. SOLUTION
+-------------------------------------------------------------------------------
+
+Escape Heat combines weather, environmental, and geospatial data into a central
+Heat Intelligence Engine that calculates heat-related risk and generates
+AI-powered recommendations.
+
+Decision Pipeline
+
+Collect Data
+    ↓
+Analyze Conditions
+    ↓
+Calculate Risk
+    ↓
+Generate Insights
+    ↓
+Recommend Actions
+
+-------------------------------------------------------------------------------
+
+4. TARGET USERS
+-------------------------------------------------------------------------------
+
+• Citizens
+• Outdoor Workers
+• Elderly People
+• Vulnerable Individuals
+• Organizations
+• Municipal Authorities
+
+-------------------------------------------------------------------------------
+
+5. TECHNOLOGY STACK
+-------------------------------------------------------------------------------
+
+Frontend
+- Next.js
+- React
+
+UI
+- Tailwind CSS
+
+Backend
+- FastAPI
+
+Database
+- Supabase PostgreSQL
+
+Authentication
+- Supabase Auth
+
+Storage
+- Supabase Storage
+
+Artificial Intelligence
+- Gemini API (Google AI Studio)
+
+AI Agent Framework
+- Google ADK (Agent Development Kit)
+
+Maps
+- Leaflet
+- OpenStreetMap
+
+Charts
+- Chart.js
+
+Deployment
+- Vercel
+- Render
+
+Version Control
+- GitHub
+
+-------------------------------------------------------------------------------
+
+6. DATA SOURCES
+-------------------------------------------------------------------------------
+
+Weather
+- Open-Meteo API
+- NASA POWER
+- IMD Open Datasets (Optional)
+
+Satellite
+- ISRO Datasets
+- Land Surface Temperature Datasets
+
+Environmental
+- OpenStreetMap
+- Tree Cover Datasets
+- Land Use / Land Cover Datasets
+
+-------------------------------------------------------------------------------
+
+7. SYSTEM ARCHITECTURE
+-------------------------------------------------------------------------------
+
+User
+ │
+ ▼
+Location + User Profile
+ │
+ ├── Weather APIs
+ ├── Satellite Data
+ └── Environmental Data
+          │
+          ▼
+     FastAPI Backend
+          │
+          ▼
+ Heat Intelligence Engine
+          │
+          ▼
+    Gemini AI + ADK
+          │
+          ▼
+Dashboard & Recommendations
+
+-------------------------------------------------------------------------------
+
+8. MVP FEATURES
+-------------------------------------------------------------------------------
+
+8.1 Heat Dashboard
+
+Displays
+
+- Current Location
+- Heat Risk
+- Temperature
+- Feels Like Temperature
+- Humidity
+- UV Index
+- Wind Speed
+- Air Quality
+- Daily Risk Summary
+
+--------------------------------------------------
+
+8.2 Interactive Heat Map
+
+Displays
+
+- Current Location
+- Heat Zones
+- Parks
+- Hospitals
+- Cooling Centers (Demo Dataset)
+- Water Stations (Demo Dataset)
+
+--------------------------------------------------
+
+8.3 Escape AI Assistant
+
+Purpose
+
+Answer natural language questions using environmental context.
+
+Example
+
+"Is it safe to go jogging?"
+
+Context Used
+
+- Weather
+- User Profile
+- Environmental Data
+- Heat Risk Score
+
+--------------------------------------------------
+
+8.4 Recommendation Engine
+
+Provides
+
+- Hydration Advice
+- Outdoor Activity Guidance
+- Clothing Suggestions
+- Safe Time Recommendations
+- Travel Advice
+- Health Precautions
+
+-------------------------------------------------------------------------------
+
+9. MVP WORKFLOW
+-------------------------------------------------------------------------------
+
+Weather APIs
+Satellite Data
+Environmental Data
+User Location
+User Profile
+        │
+        ▼
+   FastAPI Backend
+        │
+        ▼
+Heat Intelligence Engine
+        │
+        ▼
+ Gemini AI + ADK
+        │
+        ▼
+Dashboard + Recommendations
+
+-------------------------------------------------------------------------------
+
+10. PROJECT DELIVERABLES
+-------------------------------------------------------------------------------
+
+- Responsive Web Application
+- Heat Dashboard
+- Interactive Heat Map
+- Escape AI Assistant
+- Recommendation Engine
+- Backend APIs
+- Supabase Database
+- Production Deployment
+
+-------------------------------------------------------------------------------
+
+11. PROJECT PRINCIPLES
+-------------------------------------------------------------------------------
+
+- Analyze current environmental conditions.
+- Do not predict future weather.
+- AI explains insights using structured environmental data.
+- Risk scores are calculated by the Heat Intelligence Engine.
+- Recommendations must be personalized, explainable, and actionable.
+- Use real public datasets whenever possible.
+- Design every module to be independent, reusable, and API-driven.
+
+-------------------------------------------------------------------------------
+
+12. DEVELOPMENT GOAL
+-------------------------------------------------------------------------------
+
+Build a production-ready MVP capable of helping users make safer decisions
+during extreme heat conditions by combining environmental intelligence,
+deterministic risk analysis, and Generative AI.

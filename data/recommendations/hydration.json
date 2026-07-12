@@ -1,0 +1,50 @@
+{
+  "general_guidelines": [
+    "Drink water throughout the day, even if you do not feel thirsty.",
+    "Avoid sugary, caffeinated, or alcoholic beverages, as they can accelerate dehydration.",
+    "Keep water close at hand in a thermos or insulated bottle."
+  ],
+  "hourly_water_intake_liters": {
+    "sedentary": {
+      "low_heat": 0.25,
+      "moderate_heat": 0.35,
+      "high_heat": 0.50,
+      "extreme_heat": 0.75
+    },
+    "moderate_activity": {
+      "low_heat": 0.35,
+      "moderate_heat": 0.50,
+      "high_heat": 0.75,
+      "extreme_heat": 1.00
+    },
+    "heavy_labor": {
+      "low_heat": 0.50,
+      "moderate_heat": 0.75,
+      "high_heat": 1.00,
+      "extreme_heat": 1.25
+    }
+  },
+  "demographic_adjustments": {
+    "children": "Ensure children drink small amounts of water frequently. Offer water-rich fruits like watermelon or oranges.",
+    "elderly": "The sensation of thirst decreases with age. Caregivers should prompt elderly individuals to drink water hourly.",
+    "outdoor_workers": "Outdoor workers should drink water or electrolyte solutions (like ORS) every 15-20 minutes during extreme heat.",
+    "pregnant_lactating": "Increase baseline water intake by 0.5 to 1.0 liters per day."
+  },
+  "electrolytes_rehydration": {
+    "when_needed": "During intense activity lasting more than 1 hour, or under extreme heat index levels.",
+    "solutions": [
+      {
+        "name": "ORS (Oral Rehydration Salts)",
+        "recipe": "Dissolve 1 packet of WHO-approved ORS in 1 liter of clean water."
+      },
+      {
+        "name": "Homemade Rehydration Solution",
+        "recipe": "Mix 6 teaspoons of sugar and 0.5 teaspoon of salt in 1 liter of clean water."
+      },
+      {
+        "name": "Traditional Indian Rehydration Drinks",
+        "options": ["Buttermilk (Chaas)", "Coconut Water", "Lemon Water (Nimbu Paani)", "Raw Mango Drink (Aam Panna)"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "heat_index_system": {
+    "agency": "US NOAA / Indian Meteorological Department Adaptations",
+    "metric": "Heat Index (HI) / Apparent Temperature",
+    "unit": "Celsius"
+  },
+  "levels": [
+    {
+      "level": "low",
+      "display_name": "Normal / Caution",
+      "min_temp_c": 27.0,
+      "max_temp_c": 32.0,
+      "color_code": "#FFCC00",
+      "description": "Fatigue is possible with prolonged exposure and activity.",
+      "primary_action": "Stay hydrated and monitor local weather updates."
+    },
+    {
+      "level": "moderate",
+      "display_name": "Extreme Caution",
+      "min_temp_c": 32.1,
+      "max_temp_c": 41.0,
+      "color_code": "#FF9900",
+      "description": "Sunstroke, muscle cramps, and heat exhaustion are possible with prolonged exposure and/or physical activity.",
+      "primary_action": "Drink plenty of water, schedule heavy outdoor work for cooler hours, and seek shade."
+    },
+    {
+      "level": "high",
+      "display_name": "Danger",
+      "min_temp_c": 41.1,
+      "max_temp_c": 54.0,
+      "color_code": "#FF3300",
+      "description": "Sunstroke, muscle cramps, and heat exhaustion are likely; heat stroke is possible with prolonged exposure and/or physical activity.",
+      "primary_action": "Avoid outdoor activities during peak heat hours, dress in lightweight light-colored clothing, and ensure continuous air circulation."
+    },
+    {
+      "level": "extreme",
+      "display_name": "Extreme Danger",
+      "min_temp_c": 54.1,
+      "max_temp_c": 100.0,
+      "color_code": "#990000",
+      "description": "Heat stroke or sunstroke is highly imminent with any outdoor exposure.",
+      "primary_action": "Stay indoors in air-conditioned spaces, completely suspend heavy outdoor activity, and check on vulnerable neighbors."
+    }
+  ],
+  "wet_bulb_globe_temperature_reference": {
+    "use_case": "Used primarily for outdoor workers and military operations to assess heat load in direct sunlight.",
+    "thresholds": [
+      {
+        "wbgt_c": 27.7,
+        "action": "Caution. Limit training / heavy labor for unacclimatized individuals."
+      },
+      {
+        "wbgt_c": 29.4,
+        "action": "Extreme Caution. Limit intense outdoor activity to 45 minutes per hour."
+      },
+      {
+        "wbgt_c": 31.1,
+        "action": "Danger. Suspend physical training and intense outdoor work for unacclimatized individuals; acclimatized individuals limit work to 30 minutes per hour."
+      },
+      {
+        "wbgt_c": 32.2,
+        "action": "Extreme Danger. Suspend all outdoor physical training and non-essential labor."
+      }
+    ]
+  }
+}
